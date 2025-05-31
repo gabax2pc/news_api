@@ -1,0 +1,13 @@
+# 環境変数ファイル
+.env
+
+# ログファイル
+logs/*
+!logs/.gitkeep
+
+# LocalStackデータ（ディレクトリ構造は管理、中身は除外）
+localstack-data/*
+!localstack-data/.gitkeep
+
+# Pytestキャッシュ
+.pytest_cache/
